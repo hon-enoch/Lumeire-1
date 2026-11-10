@@ -36,7 +36,7 @@ export function AdminScreen({ onBack }: { onBack: () => void }) {
       setErr('Too many attempts. Please wait 30 seconds and try again.');
       return;
     }
-    if (email.trim().toLowerCase() === 'owner@lumiere.books' && pw === 'Lumiere2026!') {
+    if (email.trim().toLowerCase() === 'enochantwi2297@gmail.com'&& pw === 'Lumiere2026!') {
       setAuthed(true);
       setErr('');
       setAttempts(0);
